@@ -23,6 +23,16 @@ Site estático com exemplos de projetos, bio e formulário para contato via What
 
 ---
 
+## ⚡ Deploy (GitHub Pages)
+
+1. No repositório GitHub, vá em **Settings → Pages**.
+2. Selecione a branch `main` (ou `gh-pages`) e a pasta `/ (root)` e salve.
+3. Aguarde alguns minutos e acesse `https://<seu-usuario>.github.io/<nome-do-repo>`.
+
+Dica: ative `prettier`/CI para garantir que o site publique sempre com código limpo.
+
+---
+
 ## 🛠 Tecnologias
 
 - HTML, CSS, JavaScript
@@ -50,4 +60,5 @@ MIT — ver `LICENSE`.
 
 ## 📬 Contato
 
-Herbert Freire — adicione aqui seu e-mail ou LinkedIn se desejar.
+Email: herbertsantows@gmail.com
+Linkedin: linkedin.com/in/herbert-freire
