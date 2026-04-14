@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.fav{
+  border-radius: 50%;
+}
+
 /*Usamos uma root para definir as cores principais que serão reutilizadas no projeto varias vezes*/
 :root {
   --primaria: #4f46e5;
