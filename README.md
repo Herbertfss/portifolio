@@ -48,7 +48,7 @@ Dica: ative `prettier`/CI para garantir que o site publique sempre com código l
 
 ## 📸 Pré-visualização
 
-![Preview da página inicial](img/screenshot.png)
+![Preview da página inicial](img/demo2.png)
 
 ---
 
