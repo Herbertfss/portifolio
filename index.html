@@ -13,7 +13,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" class="fav"/>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>Portfólio Herbert</title>
   </head>
   <body>
@@ -54,54 +58,52 @@
       <h2 class="projetos-titulo">Meus Projetos</h2>
 
       <div class="projetos-caixa">
-        <div class="projeto-card">
+        <article class="projeto-card">
           <img
             class="projeto-img"
-            src="img/gerador-de-codigo.png"
-            alt="projeto 1"
+            src="img/demo2.png"
+            alt="Preview do gerador de CSS com IA mostrando interface e código gerado"
             loading="lazy"
           />
           <div class="projeto-caixa-texto">
-            <h3 class="projeto-subt">
-              Gerador de código CSS com IA – preview ao vivo
-            </h3>
+            <header>
+              <span class="status-badge">Produção</span>
+              <h3 class="projeto-subt">NEXTSTAGE - Gerador de CSS com IA</h3>
+            </header>
             <p class="projeto-p">
-              Ferramenta web que gera HTML/CSS via IA (Groq/Llama 3.3) a partir
-              de descrições do usuário. Interface com preview ao vivo, código
-              sintetizado e design responsivo. Projeto autônomo full stack.
+              Transforme descrições em HTML/CSS usando inteligência artificial
+              (Groq/Llama 3.3). Preview ao vivo, tema claro/escuro, copiar
+              código e design glassmorphism.
             </p>
+            <ul
+              class="projeto-tecnologias"
+              aria-label="Tecnologias utilizadas no projeto"
+            >
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Groq API</li>
+              <li>Llama 3.3</li>
+            </ul>
+            <div class="projeto-links">
+              <a
+                href="https://nextstage-css-generator.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-demo"
+              >
+                Demo ao vivo
+              </a>
+              <a
+                href="https://github.com/Herbertfss/nextstage-css-generator"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-github"
+              >
+                Repositório
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="projeto-card">
-          <img
-            class="projeto-img"
-            src="img/teste.png"
-            alt="projeto 2"
-            loading="lazy"
-          />
-          <div class="projeto-caixa-texto">
-            <h3 class="projeto-subt">Projeto 2: Loja Online</h3>
-            <p class="projeto-p">
-              Uma plataforma de comércio eletrônico completa com carrinho de
-              compras, sistema de pagamento e gerenciamento de produtos.
-            </p>
-          </div>
-        </div>
-        <div class="projeto-card">
-          <img
-            class="projeto-img"
-            src="img/teste.png"
-            alt="projeto 3"
-            loading="lazy"
-          />
-          <div class="projeto-caixa-texto">
-            <h3 class="projeto-subt">Projeto 3: Blog Pessoal</h3>
-            <p class="projeto-p">
-              Um blog onde compartilho minhas experiências, tutoriais e insights
-              sobre desenvolvimento web e tecnologia.
-            </p>
-          </div>
-        </div>
+        </article>
       </div>
     </section>
     <section id="contato" class="contato">
@@ -137,10 +139,35 @@
 
     <footer class="rodape">
       <p>&copy; 2026 Herbert Freire — Desenvolvedor Web Full Stack</p>
+      <div class="rodape-links">
+        <a
+          href="https://github.com/Herbertfss"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rodape-link"
+        >
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/herbert-freire"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rodape-link"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a
+          href="https://www.instagram.com/herbt_freire"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rodape-link"
+        >
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </div>
     </footer>
 
     <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
-
     <script src="assets/script.js"></script>
   </body>
 </html>
